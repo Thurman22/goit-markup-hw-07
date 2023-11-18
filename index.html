@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>goit-markup-hw-06</title>
+    <title>goit-markup-hw-07</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
@@ -13,12 +13,22 @@
 </head>
 <body>
     <nav class="leader"><a href="https://github.com/webstudio-is" class="logo"><span style="color: #4D5AE5; text-align: center ;">WEB</span>STUDIO</a>
+                <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu" >
+                    <svg class="mobile-menu-icon" width="32px" height="22px">
+                            <use href="./images/icons.svg#hamburger"></use>
+                    </svg>
+                </button>
+           
              <ul class="container-primary">
-                    <li class="uno"><a href="/index.html" class="active" style="text-decoration: none;">Studio</a></li>
-                    <li class="dos"><a href="/portfolio.html/portfolio.html" class="dos-main" style="text-decoration: none;">Porfolio</a></li>
-                    <li class="tres"><a href="/" class="tres-main" style="text-decoration: none;">Contacts</a></li>
-                    <li class="kwatro"><a href="/" class="kwatro-main" style="text-decoration: none;">info@devstudio.com</a></li>
-                    <li class="cinco"><a href="/" class="cinco-main" style="text-decoration: none;">+11 (000) 111-11-11</a></li>
+                    <div class="meat-1">
+                        <li class="uno"><a href="/index.html" class="active" style="text-decoration: none;">Studio</a></li>
+                        <li class="dos"><a href="/portfolio.html/portfolio.html" class="dos-main" style="text-decoration: none;">Porfolio</a></li>
+                        <li class="tres"><a href="/" class="tres-main" style="text-decoration: none;">Contacts</a></li>
+                    </div>
+                    <div class="meat">
+                        <li class="kwatro"><a href="/" class="kwatro-main" style="text-decoration: none;">info@devstudio.com</a></li>
+                        <li class="cinco"><a href="/" class="cinco-main" style="text-decoration: none;">+11 (000) 111-11-11</a></li>
+                    </div>
             </ul>
         </nav>
     <section class="main-hero">
@@ -31,7 +41,6 @@
                             <svg width="18" height="18">
                                     <use href="./images/icons.svg#close"></use>
                             </svg>  
-                            
                         </button>
                     <h2 class="heading-1">Leave your contacts and we will call you back</h2>
                         <form class="service-form">
@@ -73,42 +82,45 @@
                 </div>
             </div>
         </div>
-    </section>  
-            <ul class="flex-container"> 
-               <li class="box">
-                    <div class="boxicons">
-                        <svg  width="64" height="64">
-                            <use href="./images/icons.svg#antenna-1"></use>
-                        </svg>
-                    </div>
-                    <h3 class="head">Strategy</h3>
-                    <p class="head-under">Our goal is to identify the business problem to walk away with the perfect and effcetive solutions.</p></li>
-                <li class="box">
-                    <div class="boxicons">
-                        <svg width="64" height="64">
-                            <use href="./images/icons.svg#clock-1"></use>
-                        </svg>
-                    </div>
-                    <h3 class="head">Puntuality</h3>
-                        <p class="head-under">Bring the key message to the brand's audience for the best price within the shortest possible time.</p></li>
-                <li class="box">
-                    <div class="boxicons">
-                        <svg width="64" height="64">
-                            <use href="./images/icons.svg#diagram-1"></use>
-                        </svg>
-                    </div>
-                    <h3 class="head">Diligence</h3>
-                        <p class="head-under">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p></li>
-                <li class="box">
-                    <div class="boxicons">
-                        <svg width="64" height="64">
-                            <use href="./images/icons.svg#astronaut-1"></use>
-                        </svg>
-                    </div>
-                    <h3 class="head">Technologies</h3>
-                        <p class="head-under">Design practice focused on digital experiences. We bring forth a deep passion for problem solving.</p></li>
-            </ul>
-       
+    </section>
+        <section class="about section"> 
+            <div class="container">
+                <ul class="flex-container"> 
+                    <li class="box">
+                        <div class="boxicons">
+                            <svg  width="64" height="64">
+                                <use href="./images/icons.svg#antenna-1"></use>
+                            </svg>
+                        </div>
+                        <h3 class="head">Strategy</h3>
+                        <p class="head-under">Our goal is to identify the business problem to walk away with the perfect and effcetive solutions.</p></li>
+                    <li class="box">
+                        <div class="boxicons">
+                            <svg width="64" height="64">
+                                <use href="./images/icons.svg#clock-1"></use>
+                            </svg>
+                        </div>
+                        <h3 class="head">Puntuality</h3>
+                            <p class="head-under">Bring the key message to the brand's audience for the best price within the shortest possible time.</p></li>
+                    <li class="box">
+                        <div class="boxicons">
+                            <svg width="64" height="64">
+                                <use href="./images/icons.svg#diagram-1"></use>
+                            </svg>
+                        </div>
+                        <h3 class="head">Diligence</h3>
+                            <p class="head-under">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p></li>
+                    <li class="box">
+                        <div class="boxicons">
+                            <svg width="64" height="64">
+                                <use href="./images/icons.svg#astronaut-1"></use>
+                            </svg>
+                        </div>
+                        <h3 class="head">Technologies</h3>
+                            <p class="head-under">Design practice focused on digital experiences. We bring forth a deep passion for problem solving.</p></li>
+                </ul>
+        </div>
+        </section>
         <h3 class="title-section">What are we doing?</h2>
                 <ul class="squares">
                     <li>
@@ -123,6 +135,7 @@
                 </ul> 
        
         <h3 class="section-title">Our Team</h2>
+            <div class="container">
                 <ul class="people">
                     <li class="product-one">
                         <img class="people-first" src="images/mark.jpg" alt="smiling white skinned person with a mustache" width="260"/>
@@ -273,8 +286,10 @@
                     </div>
                     </li>
                 </ul>
+            </div>
         <section> 
             <h3 class="icon-main"> Customers</h3>
+            <div class="container">
                 <ul class="icons">
                     <li class="icon-team">
                         <a href="#">
@@ -319,62 +334,112 @@
                         </a>
                     </li>
                 </ul>
+            </div>
         </section>
         <footer class= "final">
-            <ul class="final-icons">
-                <li>
-                    <a class="logo-set" href="https://github.com/webstudio-is"><span class="logo-initial">WEB</span>STUDIO</a>
-                </li>
-                <li class="final-primary">
-                    <h4>Social Media</h4>
-                </li>
-                <li class="final-secondary">
-                    <h4>Subscribe</h4>
-                </li>
-            </ul>
-            <div class="media-icons">
-                <p class="paragraph" style="color: #F4F4FD;">Increase the flow of customers and <br> sales for your business with digital <br>marketing &
-                    growth solutions.</p>
-                <div class="media-final">
-                    <div class="media">
-                        <a class="footer-icon">
-                            <svg width="20" height="20">
-                                <use href="./images/icons.svg#instagram-2"></use>
-                            </svg>
-                        </a>
+            <div class="container"> 
+                <div class="inner-footer">
+                    <div>
+                        <a class="logo-set" href="https://github.com/webstudio-is"><span class="logo-initial">WEB</span>STUDIO</a>
+                        <p class="paragraph" style="color: #F4F4FD;">
+                            Increase the flow of customers and <br> 
+                            sales for your business with
+                            digital <br>marketing &
+                            growth solutions.</p>
                     </div>
-                    <div class="media">
-                        <a class="footer-icon">
-                            <svg width="20" height="20">
-                            <use href="./images/icons.svg#twitter-1"></use>
-                            </svg>
-                        </a>
+                    <div class="media-icons">
+                        <p class="final-primary" style="color: #F4F4FD;" >Social Media</p>
+                        <div class="media-final">
+                            <a class="footer-icon">
+                                    <svg width="20" height="20">
+                                        <use href="./images/icons.svg#instagram-2"></use>
+                                    </svg>
+                            </a>
+                            <a class="footer-icon">
+                                    <svg width="20" height="20">
+                                    <use href="./images/icons.svg#twitter-1"></use>
+                                    </svg>
+                            </a>
+                            <a class="footer-icon">
+                                    <svg width="20" height="20">
+                                    <use href="./images/icons.svg#facebook"></use>
+                                    </svg>
+                            </a>
+                             <a class="footer-icon">
+                                <svg width="20" height="20">
+                                    <use href="./images/icons.svg#linkedin2"></use>
+                                </svg>
+                            </a>
+                        </div>
                     </div>
-                    <div class="media">
-                        <a class="footer-icon">
-                            <svg width="20" height="20">
-                            <use href="./images/icons.svg#facebook"></use>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="media">
-                        <a class="footer-icon">
-                        <svg width="20" height="20">
-                            <use href="./images/icons.svg#linkedin2"></use>
-                        </svg>
-                        </a>
+                    <div class="final-sub">
+                        <p style="color: #F4F4FD;">Subscribe</p>
+                        <form class="final-form">
+                            <input class="final-text" type="text" maxlength="3" size="39" placeholder="E-mail">
+                            <button class="final-subs">Subscribe
+                                <svg class="final-button" width="24" height="24">
+                                    <use href="./images/icons.svg#send"></use>
+                                </svg>
+                            </button>
+                        </form>
                     </div>
                 </div>
-                <form class="final-form">
-                    <input class="final-text" type="text" placeholder="E-mail">
-                    <button class="final-subs">Subscribe
-                        <svg class="final-button" width="24" height="24"> 
-                            <use href="./images/icons.svg#send"> 
-                        </svg>
-                    </button>
-                </form>
             </div>
         </footer>
+        <!-- Mobile -->
+        <div class="menu-container js-menu-container" class="mobile-menu">
+            <button type="button" class="menu-toggle js-close-menu mobile-close-btn">&times;</button>
+            <ul class="mobile-menu-list"> 
+                <li class="mobile-menu-item"> 
+                    <a class="mobile-menu-link" href="index.html">Studio</a>
+                </li>
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link" href="portfolio.html/">Porfolio</a>
+                </li>
+                <li class="mobile-menu-item">
+                    <a class="mobile-menu-link" href="">Contacts</a>
+                </li>
+            </ul>
+            <ul class="mobile-contacts-list">
+                <li class="mobile-contacts-items">  
+                    <a class="mobile=contacts-link" href="+11 (000) 111-11-11">+11 (000) 111-11-11</a>
+                </li>
+                <li class="mobile-contacts-items">
+                    <a class="mobile=contacts-link" href="info@devstudio.com">info@devstudio.com</a>
+                </li>
+            </ul>
+            <ul class="mobile-socialmedia-list"> 
+                <li class="mobile-socialmedia-item"> 
+                    <a class="mobile-socialmedia-link">
+                        <svg class="mobile-socialmedia-icon" width="24" height="24">
+                            <use href="./images/icons.svg#instagram-2"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mobile-socialmedia-item">
+                    <a class="mobile-socialmedia-link">
+                        <svg class="mobile-socialmedia-icon" width="24" height="24">
+                            <use href="./images/icons.svg#twitter-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mobile-socialmedia-item">
+                    <a class="mobile-socialmedia-link">
+                        <svg class="mobile-socialmedia-icon" width="24" height="24">
+                            <use href="./images/icons.svg#facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mobile-socialmedia-item">
+                    <a class="mobile-socialmedia-link">
+                        <svg class="mobile-socialmedia-icon" width="24" height="24">
+                            <use href="./images/icons.svg#linkedin2"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>   
+        <script src="./js/mobile-menu.js"></script> 
         <script src="./js/modal.js"></script>
 </body> 
 </html> 
