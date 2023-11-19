@@ -720,7 +720,9 @@ div.par-fourth {
     padding-top: 60px;
     margin-bottom: 40px;
     list-style: none;   
+    
 }
+
 .mobile-contacts-link { 
     color: #2E2F42;
     font-family: 'Roboto''san serif';
@@ -728,6 +730,7 @@ div.par-fourth {
     font-weight: 700; 
     line-height: 1/11;
     letter-spacing: 0.72;
+    text-decoration: none;
 }
 .mobile-contacts-link-1 {
     font-size: 36px;
@@ -735,6 +738,7 @@ div.par-fourth {
     line-height: 1/11;
     letter-spacing: 0.72;
     color: #4D5AE5;
+    text-decoration: none;
     font-family: 'Roboto''san serif';
 }
 .mobile-contacts-link:hover, 
